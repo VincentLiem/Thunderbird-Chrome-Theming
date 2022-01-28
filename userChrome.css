@@ -1,0 +1,6 @@
+/* Remove from context menu.*/
+
+#mailContext-openNewWindow, #mailContext-openConversation, #mailContext-replyList, #mailContext-redirect, #mailContext-sep-reply, #mailContext-tags, #mailContext-mark, #mailContext-archive, #mailContext-moveMenu, #mailContext-copyMenu, #mailContext-moveToFolderAgain, #mailContext-calendar-convert-menu, #paneContext-afterMove, #mailContext-ignoreThread, #mailContext-ignoreSubthread, #mailContext-watchThread {
+    display: none !important; 
+}
+
