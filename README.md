@@ -1,3 +1,3 @@
 # Thunderbird-Chrome-Theming
 
-Removing items from Firefox 91 ESR interface
+Removing items from Thunderbird interface
