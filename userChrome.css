@@ -4,3 +4,13 @@
     display: none !important; 
 }
 
+/*Hide Calender tab button*/
+#calendar-tab-button
+{
+    display: none !important; 
+}
+/*Hide Tasks tab button*/
+#task-tab-button
+{
+    display: none !important; 
+}
