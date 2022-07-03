@@ -6,7 +6,7 @@
 
 /* Remove from spaces toolbar.*/
 
-#addressBookButton, #calendarButton, #tasksButton, #chatButton
+#addressBookButton, #chatButton
 {
     display: none !important; 
 }
