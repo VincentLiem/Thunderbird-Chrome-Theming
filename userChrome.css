@@ -4,3 +4,9 @@
     display: none !important; 
 }
 
+/* Remove from spaces toolbar.*/
+
+#addressBookButton, #calendarButton, #tasksButton, #chatButton
+{
+    display: none !important; 
+}
