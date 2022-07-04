@@ -1,12 +1,41 @@
 /* Remove from context menu.*/
-
-#mailContext-openNewWindow, #mailContext-openConversation, #mailContext-replyList, #mailContext-redirect, #mailContext-sep-reply, #mailContext-tags, #mailContext-mark, #mailContext-archive, #mailContext-moveMenu, #mailContext-copyMenu, #mailContext-moveToFolderAgain, #mailContext-calendar-convert-menu, #paneContext-afterMove, #mailContext-ignoreThread, #mailContext-ignoreSubthread, #mailContext-watchThread {
-    display: none !important; 
+#mailContext-openNewWindow,
+#mailContext-openConversation,
+#mailContext-replyList,
+#mailContext-redirect,
+#mailContext-sep-reply,
+#mailContext-tags,
+#mailContext-mark,
+#mailContext-archive,
+#mailContext-moveMenu,
+#mailContext-copyMenu,
+#mailContext-moveToFolderAgain,
+#mailContext-calendar-convert-menu,
+#paneContext-afterMove,
+#mailContext-ignoreThread,
+#mailContext-ignoreSubthread,
+#mailContext-watchThread {
+    display: none !important;
 }
 
-/* Remove from spaces toolbar.*/
+/* Remove items from spaces toolbar.*/
+#addressBookButton,
+#chatButton {
+    display: none !important;
+}
 
-#addressBookButton, #chatButton
-{
-    display: none !important; 
+
+/* Change size of spaces toolbar.*/
+#spacesToolbarAddonsContainer {
+    width: 2.5rem;
+}
+
+/* Change size of spaces toolbar items.*/
+#mailButton,
+#tasksButton,
+#calendarButton,
+#settingsButton,
+#collapseButton {
+    width: 2.5rem;
+    height: 2.5rem;
 }
