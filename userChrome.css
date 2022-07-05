@@ -34,3 +34,8 @@
     width: 2.5rem;
     height: 2.5rem;
 }
+
+/* Change searchbar.*/
+#gloda-search {
+    width: 20rem;
+}
