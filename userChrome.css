@@ -39,3 +39,8 @@
 #gloda-search {
     width: 20rem;
 }
+
+/* remove new event/new task button/panel.*/
+#primaryButtonSidePanel {
+    display: none !important;
+}
